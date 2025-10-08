@@ -1,8 +1,9 @@
 # DevOps
 
-## INTTRO TO CLOUD
+## INTRO TO CLOUD
 
 POC -> DEV_TEAM -> TEST_TEAM
+-------------------------------
 TEST_TEAM -> DEV_TEAM -> CLOUD
 
 **What is POC**
