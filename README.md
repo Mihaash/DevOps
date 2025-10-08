@@ -18,12 +18,12 @@ Cloud Computing is the delivery of computing services over the internet (“the 
 
 **These services include:**
 
-Servers (virtual machines)
+Servers (virtual machines),
 
-Storage (files, databases, backups)
+Storage (files, databases, backups),
 
-Networking (load balancers, firewalls, VPNs)
+Networking (load balancers, firewalls, VPNs),
 
-Software (apps and development tools)
+Software (apps and development tools),
 
-Analytics & AI services
+Analytics & AI services.
