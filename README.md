@@ -116,3 +116,47 @@ Its goal is to **automate and shorten the software delivery cycle** using tools 
 | **5. Continuous Deployment / Delivery (CD)** | Automatically deploy to staging/production        | Deployment automation, environment configuration, rollback planning           | Docker, Kubernetes, Ansible, Puppet, Chef      |
 | **6. Continuous Monitoring** | Monitor application performance and infrastructure     | Error logging, performance monitoring, security monitoring, incident response | Prometheus, Grafana, ELK Stack, Nagios, Splunk |
 | **7. Continuous Feedback** | Collect insights from users and stakeholders             | User analytics, bug reports, performance metrics, monitoring insights         | Jira, Bugzilla, Google Analytics, Feedback portals |
+
+
+# Jenkins Overview
+
+**Jenkins** is an **open-source automation server** used to **build, test, and deploy software continuously** — part of what’s known as **CI/CD (Continuous Integration / Continuous Delivery)**.
+
+---
+
+## 🔧 What Jenkins Does
+
+Jenkins automates repetitive tasks in software development:
+
+- **Builds** your source code (e.g., from GitHub)
+- **Runs tests** automatically
+- **Deploys** applications to servers or cloud
+- **Integrates** with hundreds of DevOps tools
+
+---
+
+## ⚙️ How Jenkins Works (Simplified Flow)
+
+1. Developer commits code → e.g., pushes to GitHub  
+2. Jenkins detects the change (via webhook or polling)  
+3. Build starts automatically  
+4. Jenkins executes defined build steps (like compiling code, running tests)  
+5. If successful → it **deploys** the app to test or production  
+6. If failed → Jenkins **alerts the team** via email/Slack  
+
+---
+**SonarQube** continuously inspects your source code to detect errors, enforce coding standards, and measure technical debt.  
+It supports many languages like **Java, Python, JavaScript, C#, PHP, C/C++, Go, and more.**
+
+---
+
+## ⚙️ What SonarQube Does
+
+SonarQube analyzes code for:
+
+- 🐞 **Bugs** – Code that can cause malfunction.  
+- 🧨 **Vulnerabilities** – Security risks like SQL injection or XSS.  
+- 💨 **Code Smells** – Poor design choices that affect maintainability.  
+- 🧾 **Duplications** – Repeated blocks of code.  
+- 📊 **Code Coverage** – How much of your code is covered by tests.  
+- 🔍 **Technical Debt** – Estimated time to fix all maintainability issues.  
